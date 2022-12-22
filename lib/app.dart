@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hyperion/parallax/parallax_screenshot.dart';
 
 class App extends StatefulWidget {
   const App({Key? key}) : super(key: key);
@@ -11,11 +12,10 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         toolbarHeight: 80,
         // backgroundColor: const Color.fromRGBO(191, 191, 191, 1),
-        backgroundColor: Theme.of(context).colorScheme.surface,
+        backgroundColor: Theme.of(context).colorScheme.secondary,
         title: Text(
           "HYPERION",
           style: Theme.of(context).textTheme.headline4?.copyWith(
@@ -36,6 +36,13 @@ class _AppState extends State<App> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              ClipRect(
+                child: Align(
+                  alignment: Alignment.center,
+                  heightFactor: 0.5,
+                  child: Image.asset('images/background.jpg'),
+                ),
+              ),
               Text(
                 'HYPERION',
                 style: Theme.of(context).textTheme.headline3?.copyWith(
@@ -74,6 +81,36 @@ class _AppState extends State<App> {
                 'occaecat cupidatat non proident, sunt in culpa qui officia '
                 'deserunt mollit anim id est laborum.',
                 style: TextStyle(fontSize: 20),
+              ),
+              const SizedBox(height: 24),
+              // ClipRRect(
+              //   borderRadius: BorderRadius.circular(10),
+              //   child: Image.asset('images/screenshot1.jpg'),
+              // ),
+              // const SizedBox(height: 24),
+              // ClipRRect(
+              //   borderRadius: BorderRadius.circular(10),
+              //   child: Image.asset('images/screenshot2.jpg'),
+              // ),
+              // const SizedBox(height: 24),
+              // ClipRRect(
+              //   borderRadius: BorderRadius.circular(10),
+              //   child: Image.asset('images/screenshot3.jpg'),
+              // ),
+              ParallaxScreenshot(
+                image: 'images/screenshot1.jpg',
+                title: 'screenshot1',
+                subtitle: 'description',
+              ),
+              ParallaxScreenshot(
+                image: 'images/screenshot2.jpg',
+                title: 'screenshot2',
+                subtitle: 'description',
+              ),
+              ParallaxScreenshot(
+                image: 'images/screenshot3.jpg',
+                title: 'screenshot3',
+                subtitle: 'description',
               ),
               const SizedBox(height: 24),
               Text(
