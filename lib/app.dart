@@ -112,6 +112,12 @@ class _AppState extends State<App> {
                 title: 'screenshot3',
                 subtitle: 'description',
               ),
+              ParallaxScreenshot(
+                image: 'https://raw.githubusercontent.com/pabushabi/hyperion_web/main/assets/images/screenshot1.jpg',
+                title: 'screenshot3',
+                subtitle: 'description',
+                isNetwork: true,
+              ),
               const SizedBox(height: 24),
               Text(
                 'HEADLINE',

@@ -7,11 +7,13 @@ class ParallaxScreenshot extends StatelessWidget {
     required this.image,
     required this.title,
     required this.subtitle,
+    this.isNetwork = false,
   });
 
   final String image;
   final String title;
   final String subtitle;
+  final bool isNetwork;
   final GlobalKey _backgroundImageKey = GlobalKey();
 
   @override
@@ -42,11 +44,18 @@ class ParallaxScreenshot extends StatelessWidget {
         backgroundImageKey: _backgroundImageKey,
       ),
       children: [
-        Image.asset(
-          image,
-          key: _backgroundImageKey,
-          fit: BoxFit.cover,
-        ),
+        if (isNetwork)
+          Image.network(
+            image,
+            key: _backgroundImageKey,
+            fit: BoxFit.cover,
+          )
+        else
+          Image.asset(
+            image,
+            key: _backgroundImageKey,
+            fit: BoxFit.cover,
+          ),
       ],
     );
   }
