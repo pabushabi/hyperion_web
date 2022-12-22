@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hyperion/app.dart';
+import 'package:hyperion/theme/color_schemes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +14,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'HYPERION',
       theme: ThemeData(
-        primarySwatch: Colors.brown,
-        fontFamily: 'Roboto',
+        fontFamily: 'Inter',
+        colorScheme: lightColorScheme,
       ),
+      darkTheme: ThemeData(
+        fontFamily: 'Inter',
+        colorScheme: darkColorScheme,
+      ),
+      themeMode: ThemeMode.system,
       home: const App(),
     );
   }

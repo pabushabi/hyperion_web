@@ -23,3 +23,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Unbounded
+      fonts:
+        - asset: assets/fonts/Unbounded-Regular.ttf
+        - asset: assets/fonts/Unbounded-SemiBold.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Light.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
