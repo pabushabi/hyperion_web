@@ -46,7 +46,7 @@ class _AppState extends State<App> {
               ),
               // 1-й заголовок
               Text(
-                'HYPERION',
+                'Змейка',
                 style: Theme.of(context).textTheme.headline3?.copyWith(
                       fontFamily: 'Unbounded',
                       color: Theme.of(context).colorScheme.onBackground,
@@ -55,7 +55,7 @@ class _AppState extends State<App> {
               const SizedBox(height: 12),
               // 1-й абзац
               const Text(
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
+                'ПАшка молодец, мы пытались...., '
                 'sed do eiusmod tempor incididunt ut labore et dolore magna '
                 'aliqua. Ut enim ad minim veniam, quis nostrud exercitation '
                 'ullamco laboris nisi ut aliquip ex ea commodo consequat. '
