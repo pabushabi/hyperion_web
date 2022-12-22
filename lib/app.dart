@@ -39,7 +39,7 @@ class _AppState extends State<App> {
             children: [
               ClipRect(
                 child: Align(
-                  alignment: Alignment.center,
+                  alignment: Alignment.topCenter,
                   heightFactor: 0.43,
                   child: Image.network(
                       'https://raw.githubusercontent.com/pabushabi/hyperion_web/main/assets/images/background.jpg'),
