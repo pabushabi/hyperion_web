@@ -68,7 +68,7 @@ class _AppState extends State<App> {
               const SizedBox(height: 24),
               // 2-й заголовок
               Text(
-                'HEADLINE',
+                'HEADLINE 2',
                 style: Theme.of(context).textTheme.headline4?.copyWith(
                       fontFamily: 'Unbounded',
                       color: Theme.of(context).colorScheme.onBackground,
