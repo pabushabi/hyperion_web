@@ -63,13 +63,13 @@ class _AppState extends State<App> {
                     // 1-й абзац
                     const Text(
                       'Добро пожаловать на демонстрацию игры Змейка! В этой игре вы будете играть за змею, которая охотится на яблоки. Но будьте осторожны, ведь на вашем пути могут встретиться стены и другие змеи, которые могут помешать вам достичь цели. Надеюсь, вы готовы принять вызов и стать лучшим змейком всех времен!'
-                      ' Начнем игру!',
+                      ,
                       style: TextStyle(fontSize: 20),
                     ),
                     const SizedBox(height: 24),
                     // 2-й заголовок
                     Text(
-                      'HEADLINE',
+                      'Начнем игру!',
                       style: Theme.of(context).textTheme.headline4?.copyWith(
                             fontFamily: 'Unbounded',
                             color: Theme.of(context).colorScheme.onBackground,
