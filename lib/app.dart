@@ -53,7 +53,7 @@ class _AppState extends State<App> {
                   children: <Widget>[
                     // 1-й заголовок
                     Text(
-                      'Змейка',
+                      'Змейка и её невероятные приключения.',
                       style: Theme.of(context).textTheme.headline3?.copyWith(
                             fontFamily: 'Unbounded',
                             color: Theme.of(context).colorScheme.onBackground,
@@ -69,7 +69,7 @@ class _AppState extends State<App> {
                     const SizedBox(height: 24),
                     // 2-й заголовок
                     Text(
-                      'HEADLINE 2',
+                      'HEADLINE',
                       style: Theme.of(context).textTheme.headline4?.copyWith(
                             fontFamily: 'Unbounded',
                             color: Theme.of(context).colorScheme.onBackground,
@@ -91,28 +91,28 @@ class _AppState extends State<App> {
                     ParallaxScreenshot(
                       image:
                           'https://raw.githubusercontent.com/pabushabi/hyperion_web/main/assets/images/screenshot1.jpg',
-                      title: 'Скриншот 1',
+                      title: 'Безграничные возможности.',
                       subtitle: 'description',
                       isNetwork: true,
                     ),
                     ParallaxScreenshot(
                       image:
                           'https://raw.githubusercontent.com/pabushabi/hyperion_web/main/assets/images/screenshot2.jpg',
-                      title: 'Скриншот 2',
+                      title: 'Интересные персонажи.',
                       subtitle: 'description',
                       isNetwork: true,
                     ),
                     ParallaxScreenshot(
                       image:
                           'https://raw.githubusercontent.com/pabushabi/hyperion_web/main/assets/images/screenshot3.jpg',
-                      title: 'Скриншот 3',
+                      title: 'Неповторимое окружение.',
                       subtitle: 'description',
                       isNetwork: true,
                     ),
                     const SizedBox(height: 24),
                     // 3-й заголовок
                     Text(
-                      'HEADLINE',
+                      'Что же дальше?!',
                       style: Theme.of(context).textTheme.headline4?.copyWith(
                             fontFamily: 'Unbounded',
                             color: Theme.of(context).colorScheme.onBackground,
