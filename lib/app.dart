@@ -121,14 +121,7 @@ class _AppState extends State<App> {
                     const SizedBox(height: 16),
                     // Абзац
                     const Text(
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
-                      'sed do eiusmod tempor incididunt ut labore et dolore magna '
-                      'aliqua. Ut enim ad minim veniam, quis nostrud exercitation '
-                      'ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-                      'Duis aute irure dolor in reprehenderit in voluptate velit '
-                      'esse cillum dolore eu fugiat nulla pariatur. Excepteur sint '
-                      'occaecat cupidatat non proident, sunt in culpa qui officia '
-                      'deserunt mollit anim id est laborum.',
+                      'Ты можешь быть как Змейка, но ты никогда не узнаешь, что придет за следующим углом. Будь готов к любым изменениям и препятствиям, которые могут встретить тебя на твоем пути. В конечном итоге, твоя гибкость и умение адаптироваться будут ключевыми факторами для твоего успеха в игре Змейка.',
                       style: TextStyle(fontSize: 20),
                     ),
                     const SizedBox(height: 124),
