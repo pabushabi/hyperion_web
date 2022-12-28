@@ -62,7 +62,8 @@ class _AppState extends State<App> {
                     const SizedBox(height: 12),
                     // 1-й абзац
                     const Text(
-                      'Добро пожаловать на демонстрацию игры Змейка! В этой игре вы будете играть за змею, которая охотится на яблоки. Но будьте осторожны, ведь на вашем пути могут встретиться стены и другие змеи, которые могут помешать вам достичь цели. Надеюсь, вы готовы принять вызов и стать лучшим змейком всех времен!',' Начнем игру!',
+                      'Добро пожаловать на демонстрацию игры Змейка! В этой игре вы будете играть за змею, которая охотится на яблоки. Но будьте осторожны, ведь на вашем пути могут встретиться стены и другие змеи, которые могут помешать вам достичь цели. Надеюсь, вы готовы принять вызов и стать лучшим змейком всех времен!'
+                      ' Начнем игру!',
                       style: TextStyle(fontSize: 20),
                     ),
                     const SizedBox(height: 24),
@@ -77,14 +78,13 @@ class _AppState extends State<App> {
                     const SizedBox(height: 16),
                     // 2-й абзац
                     const Text(
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
-                      'sed do eiusmod tempor incididunt ut labore et dolore magna '
-                      'aliqua. Ut enim ad minim veniam, quis nostrud exercitation '
-                      'ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-                      'Duis aute irure dolor in reprehenderit in voluptate velit '
-                      'esse cillum dolore eu fugiat nulla pariatur. Excepteur sint '
-                      'occaecat cupidatat non proident, sunt in culpa qui officia '
-                      'deserunt mollit anim id est laborum.',
+                      'Различные локации, каждая со своими уникальными средами и препятствиями.'
+                      'Боссы в каждой локации, требующие уникальных тактик и умений.'
+                      'Разнообразные способы улучшения Змейки, такие как увеличение скорости или увеличение запаса здоровья.'
+                      'Возможность приобретения уникальных способностей, таких как способность проходить сквозь стены или увеличение урона, которые помогут вам в борьбе против сильных противников.'
+                      'Различные режимы игры, такие как карьерный режим и режим времени, которые предлагают разнообразие игровых возможностей.'
+                      'Множество дополнительных мини-игр и сюжетных заданий, которые помогут вам узнать больше о мире игры и погрузиться в него еще глубже.'
+                      ,
                       style: TextStyle(fontSize: 20),
                     ),
                     const SizedBox(height: 24),
